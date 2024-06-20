@@ -1,1 +1,11 @@
+<<<<<<< HEAD
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+=======
+@import "bootstrap";
+
+.btn {
+  background-color: $primary;
+  color : $light;
+  font-size: $font-size-lg;
+}
+>>>>>>> branch_a
