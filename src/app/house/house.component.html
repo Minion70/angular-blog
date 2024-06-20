@@ -1,0 +1,10 @@
+<div class="house" [ngClass]="houseClasses()">
+  @if (isImageVisible()) {
+    <img [src]="house.photo" alt="{{house.title}}">
+  } @else {
+    <h2>No image availiable!</h2>
+  }
+  <h5 class="title">{{houseIndex}} {{house.title}}</h5>
+  <p class="cuty">{{house.city}}</p>
+  <button (click)="handleApply()">Apply to buy</button>
+</div>
